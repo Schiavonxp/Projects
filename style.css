@@ -1,0 +1,176 @@
+style.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header{
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo{
+    color: #16507b;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius:6px ;
+
+}
+
+.menu .btn-menu:hover{
+    background-color: #124265;
+    color: white;
+}
+
+
+/*
+Section Main
+*/
+
+section.main{
+    background-image: url('img/hero-bg.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main__cta h2{
+    color: #16507b;
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main__cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    border-radius:6px ;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    background-color: white;
+    width: 16%;
+    margin: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.diferencial-single i{
+    color: #124265;
+    font: 23px;
+}
+
+.diferencial-single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/*
+Section sobre
+*/
+
+section.sobre{
+    padding:80px 0 ;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+
+}
+
+.chamada-sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo-sobre
+{display: flex;}
+
+.conteudo-sobre p{
+    margin: 0 20px ;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
